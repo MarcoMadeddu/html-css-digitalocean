@@ -61,3 +61,59 @@ header .list-inline i{
   color: #0c2354;
   font-size: 15px;
 }
+
+.btn-header{
+  padding: 0 8px;
+  color: #2285fd;
+  border-color: #2285fd;
+}
+
+.hamburgher{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width:1199px){
+
+  header .list-inline{
+    display: none;
+  }
+
+  header .hamburgher{
+    display: inline-block;
+  }
+
+}
