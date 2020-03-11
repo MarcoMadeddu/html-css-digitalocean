@@ -49,7 +49,11 @@ footer{
 }
 
 .txt-blue{
-  color: #2285fd;
+  color: #267cfe;
+}
+
+.pb{
+  padding-bottom: 15px
 }
 
 
@@ -139,10 +143,32 @@ header .list-inline i{
   color:grey;
   font-size: 10px;
 }
+/* Fine jumbotron */
 
+/* business */
+#business{
+  background-color: #f3f5f9;
+}
 
+#business h2{
+  font-size: 15px;
+  color: grey;
+  padding-top: 15px;
+}
 
+#business img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 
+.m-logo{
+  height: 100px;
+}
+
+#business .fas{
+  font-size: 11px;
+}
 
 
 
