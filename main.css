@@ -71,9 +71,32 @@ header .list-inline i{
 .hamburgher{
   display: none;
 }
+/* Fine navbar */
 
+/* Jumbotron */
 
+#m-jumbotron {
+  background-image: url("Assets/bg-banner-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 800px;
+}
 
+#m-jumbotron h1{
+  padding-top: 15px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1;
+  max-width: 75%;
+}
+
+#m-jumbotron p{
+  opacity: 0.7;
+  font-size: 16px;
+  padding-top: 10px;
+  max-width: 75%;
+}
 
 
 
