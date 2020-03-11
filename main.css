@@ -117,14 +117,14 @@ header .list-inline i{
 }
 
 .btn-form-1{
-  width: 458px;
+  max-width: 458px;
   margin-bottom: 5px;
   background-color: #2386fd;
   color: white;
 }
 
 .btn-form-2{
-  width: 458px;
+  max-width: 458px;
   margin-bottom: 5px;
   background-color: white;
   color: grey;
@@ -172,13 +172,18 @@ header .list-inline i{
 
 /* responsive */
 @media screen and (max-width:1199px){
-
+  /* header */
   header .list-inline{
     display: none;
   }
 
   header .hamburgher{
     display: inline-block;
+  }
+  /* jumbotron */
+  #m-jumbotron h1,
+  #m-jumbotron p{
+    max-width: 100%;
   }
 
 }
