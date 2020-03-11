@@ -37,3 +37,27 @@
 footer{
   background-color: darkblue;
 }
+/* utilities */
+
+
+
+
+
+
+/* Navbar header */
+header{
+  padding-top: 10px;
+}
+header img{
+  max-width: 140px;
+}
+
+header .list-inline{
+  line-height: 2;
+}
+
+header .list-inline a,
+header .list-inline i{
+  color: #0c2354;
+  font-size: 15px;
+}
