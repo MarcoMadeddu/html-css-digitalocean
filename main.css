@@ -16,6 +16,7 @@
   height: 200px;
 }
 
+
 #business{
   background-color: grey;
 }
@@ -38,6 +39,18 @@ footer{
   background-color: darkblue;
 }
 /* utilities */
+
+.bg-white{
+  background-color: white;
+}
+
+.txt-black{
+  color:#031b4e;
+}
+
+.txt-blue{
+  color: #2285fd;
+}
 
 
 
@@ -80,7 +93,6 @@ header .list-inline i{
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 800px;
 }
 
 #m-jumbotron h1{
@@ -96,6 +108,36 @@ header .list-inline i{
   font-size: 16px;
   padding-top: 10px;
   max-width: 75%;
+}
+/* form Jumbotron */
+#m-jumbotron .col-md-5{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  border-radius: 3px;
+}
+
+.btn-form-1{
+  width: 458px;
+  margin-bottom: 5px;
+  background-color: #2386fd;
+  color: white;
+}
+
+.btn-form-2{
+  width: 458px;
+  margin-bottom: 5px;
+  background-color: white;
+  color: grey;
+}
+
+#m-jumbotron button img{
+  max-width: 20px;
+  float: left;
+}
+
+#m-jumbotron h4{
+  color:grey;
+  font-size: 10px;
 }
 
 
