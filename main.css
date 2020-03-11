@@ -1,0 +1,39 @@
+.box{
+  height: 30px;
+  border: 2px solid red;
+}
+
+.box2{
+  height: 80px;
+  border: 2px solid black;
+}
+
+.blue{
+  background-color: darkblue;
+}
+
+.height{
+  height: 200px;
+}
+
+#business{
+  background-color: grey;
+}
+
+
+
+#developer{
+  background-color: grey;
+}
+
+#service{
+  background-color: blue;
+}
+
+#started{
+  background-color: blue;
+}
+
+footer{
+  background-color: darkblue;
+}
