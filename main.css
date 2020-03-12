@@ -52,8 +52,24 @@ footer{
   color: #267cfe;
 }
 
-.pb{
+.txt-grey{
+  color: #7e88a0;
+}
+
+.p-b{
   padding-bottom: 15px
+}
+
+.p-t{
+  padding-top: 15px;
+}
+
+.p-t-40{
+  padding-top: 40px;
+}
+
+.p-b-40{
+  padding-bottom: 40px;
 }
 
 
@@ -62,9 +78,6 @@ footer{
 
 
 /* Navbar header */
-header{
-  padding-top: 10px;
-}
 header img{
   max-width: 140px;
 }
@@ -100,7 +113,6 @@ header .list-inline i{
 }
 
 #m-jumbotron h1{
-  padding-top: 15px;
   font-size: 50px;
   font-weight: 500;
   line-height: 1;
@@ -153,7 +165,6 @@ header .list-inline i{
 #business h2{
   font-size: 15px;
   color: grey;
-  padding-top: 15px;
 }
 
 #business img{
@@ -169,6 +180,31 @@ header .list-inline i{
 #business .fas{
   font-size: 11px;
 }
+/* Fine business */
+
+/* Deploy section */
+#deploy{
+
+}
+ #deploy .list-group{
+   max-height: 20px;
+   margin-bottom: 20px;
+ }
+ #deploy .list-group-item{
+   border: none;
+   border-left: 2px solid #7e88a0;
+  }
+
+  #deploy .list-group-item:first-child,
+  #deploy .list-group-item:last-child {
+    border-radius: 0;
+  }
+
+  #deploy p{
+    margin: 0 0 10px;
+    font-size: 15px;
+    color: #7e88a0;
+  }
 
 
 
@@ -206,10 +242,24 @@ header .list-inline i{
   header .hamburgher{
     display: inline-block;
   }
+
   /* jumbotron */
   #m-jumbotron h1,
   #m-jumbotron p{
     max-width: 100%;
   }
 
+  /* business */
+  .m-logo{
+    height: 50px;
+  }
+
+  /* deploy */
+  #deploy .list-group{
+    padding-bottom: 180px;
+  }
+
+  .p-b-10{
+    padding-bottom: 10px;
+  }
 }
