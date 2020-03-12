@@ -66,6 +66,10 @@ footer{
   padding-bottom: 40px;
 }
 
+.p-b-70{
+  padding-bottom: 70px;
+}
+
 .inline-b{
   display: inline-block;
 }
@@ -252,6 +256,12 @@ header .list-inline i{
   left: 3%;
   transform: translate(-143px, 164px);
 } */
+/* Fine developer */
+
+/* section features */
+#features .fas{
+  font-size: 11px;
+}
 
 
 
