@@ -16,16 +16,6 @@
   height: 200px;
 }
 
-
-#business{
-  background-color: grey;
-}
-
-
-#service{
-  background-color: blue;
-}
-
 #started{
   background-color: blue;
 }
@@ -36,6 +26,10 @@ footer{
 /* utilities */
 .bg-white{
   background-color: white;
+}
+
+.txt-white{
+  color: white;
 }
 
 .txt-black{
@@ -129,8 +123,6 @@ header .list-inline i{
 }
 /* form Jumbotron */
 #m-jumbotron .col-md-5{
-  margin-top: 45px;
-  margin-bottom: 45px;
   border-radius: 3px;
 }
 
@@ -262,8 +254,39 @@ header .list-inline i{
 #features .fas{
   font-size: 11px;
 }
+/* fine features */
 
+/* section service  */
+#service{
+  background-image: linear-gradient(180deg, #0047c5, #01209a);
+}
 
+#service table>tbody>tr>td{
+  border-bottom: 1px solid white;
+  border-top: 0;
+}
+
+#service table>tbody>tr>td:last-child{
+  text-align: right;
+}
+
+#service .txt1{
+  color:red;
+}
+
+#service .txt2{
+  text-align: center;
+  color:
+}
+
+#service .txt2{
+  text-align: right;
+  color: #267cfe;
+}
+
+#service .fas{
+  font-size: 11px;
+}
 
 
 
