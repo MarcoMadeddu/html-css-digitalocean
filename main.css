@@ -1,25 +1,3 @@
-.box{
-  height: 30px;
-  border: 2px solid red;
-}
-
-.box2{
-  height: 80px;
-  border: 2px solid black;
-}
-
-.blue{
-  background-color: darkblue;
-}
-
-.height{
-  height: 200px;
-}
-
-
-footer{
-  background-color: darkblue;
-}
 /* utilities */
 .bg-white{
   background-color: white;
@@ -241,14 +219,6 @@ header .list-inline i{
   right: -40px;
 }
 
-
-/* #developer .right-arrow{
-  color: #031b4e;
-  font-size: 40px;
-  position: relative;
-  left: 3%;
-  transform: translate(-143px, 164px);
-} */
 /* Fine developer */
 
 /* section features */
@@ -360,7 +330,26 @@ header .list-inline i{
   background-image: linear-gradient(180deg, #0047c5, #01209a);
   height: 200px;
 }
+/* fine started */
 
+/* footer */
+
+footer{
+  background-color: #031b4e;
+}
+
+footer h4{
+  font-size: 11px;
+}
+
+footer h2{
+  font-size: 14px;
+}
+
+footer .list-inline a,
+footer .list-unstyled a{
+  color: #7e88a0;
+}
 
 
 
