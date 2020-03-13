@@ -143,6 +143,10 @@ header .list-inline i{
 #business .fas{
   font-size: 11px;
 }
+
+#business row a:last-child{
+  height: 2px;
+}
 /* Fine business */
 
 /* Deploy section */
@@ -240,6 +244,11 @@ header .list-inline i{
 #service table>tbody>tr>td:last-child{
   text-align: right;
 }
+
+#service table tbody tr:last-child td {
+  border-bottom: 0px; /* DIO C'E' */
+}
+
 
 #service .txt1{
   color:red;
@@ -350,25 +359,7 @@ footer .list-inline a,
 footer .list-unstyled a{
   color: #7e88a0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* finefooter */
 
 /* responsive */
 @media screen and (max-width:1199px){
