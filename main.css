@@ -16,9 +16,6 @@
   height: 200px;
 }
 
-#started{
-  background-color: blue;
-}
 
 footer{
   background-color: darkblue;
@@ -67,11 +64,7 @@ footer{
 .inline-b{
   display: inline-block;
 }
-
-
-
-
-
+/* Fine utilities */
 
 /* Navbar header */
 header img{
@@ -214,7 +207,6 @@ header .list-inline i{
 #developer img{
   width: 100%;
   margin: 0 auto;
-  max-width: 500px;
 }
 
 #developer button{
@@ -228,15 +220,29 @@ header .list-inline i{
   background-color: #267cfe;
 }
 
-/* #developer .left-arrow{
+#developer .slider{
   position: relative;
-  left: 20%;
-  transform: translatey(280%);
+}
+
+#developer .slider i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #031b4e;
   font-size: 40px;
+}
+
+#developer .slider .arrow-left{
+  left: -40px;
   opacity: 0.7;
 }
 
-#developer .right-arrow{
+#developer .slider .arrow-right{
+  right: -40px;
+}
+
+
+/* #developer .right-arrow{
   color: #031b4e;
   font-size: 40px;
   position: relative;
@@ -291,6 +297,7 @@ header .list-inline i{
 
 #development p{
   font-size: 18px;
+  margin: 10 auto;
 }
 
 #development h5{
@@ -306,9 +313,7 @@ header .list-inline i{
 
 
 #development img{
-  width: 100%;
   margin: 0 auto;
-  max-width: 200px;
 }
 
 #development button{
@@ -324,6 +329,36 @@ header .list-inline i{
 
 #development .fas{
   font-size: 11px;
+}
+
+#development .slider{
+  position: relative;
+}
+
+#development .slider .arrow-left{
+  left: -50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #031b4e;
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+#development .slider .arrow-right{
+  right: -50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #031b4e;
+  font-size: 40px;
+}
+/* Fine development */
+
+/* Started section */
+#started{
+  background-image: linear-gradient(180deg, #0047c5, #01209a);
+  height: 200px;
 }
 
 
